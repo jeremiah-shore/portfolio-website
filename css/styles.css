@@ -107,7 +107,7 @@ header nav ul li {
 }
 
 .light-theme a {
-  color: #0c679b;
+  color: #29a284;
 }
 
 .gradient-theme {
@@ -125,7 +125,19 @@ header nav ul li {
 }
 
 .dark-theme a {
-  color: #89bd35;
+  color: #a5d060;
+}
+
+#websites {
+
+}
+
+#apps {
+
+}
+
+#games {
+
 }
 
 /***************************** MEDIA QUERIES *****************************/
