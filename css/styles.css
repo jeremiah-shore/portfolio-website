@@ -1,0 +1,153 @@
+/***************************** BASE STYLES *****************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+  /* the following lines allow the drop shadow to display*/
+  position: relative;
+  z-index: 10;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+section, footer {
+  padding: 20px 20px;
+}
+
+/***************************** HEADER STYLES *****************************/
+
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 10px;
+}
+
+/* this doesn't work in edge, despite the supports condition... how can I get this to work?
+@supports (-webkit-text-fill-color: transparent) and (-webkit-background-clip: text) {
+  header nav ul {
+    background: linear-gradient(150deg, #1c73a5 0%, #29a284 50%, #a5d060);
+    color: #222;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+*/
+
+header nav ul a {
+  color: #89bd35;
+}
+
+header nav ul li {
+  display: inline;
+  font-size: 1.4em;
+  padding: 20px;
+}
+
+#personal-brand-wrapper {
+  font-size: 1rem;
+}
+
+#personal-brand {
+  padding: 0 20px;
+}
+
+#personal-name {
+  font-weight: normal;
+  margin: 0;
+  color: #0c9b77;
+}
+
+#personal-title {
+  color: #0c679b;
+}
+
+/***************************** CONTENT STYLES *****************************/
+
+#content-wrapper {
+  font-size: 1.25rem;
+}
+
+#personal-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#personal-pics img:first-child {
+  max-width: 75%;
+}
+
+#personal-pics img {
+  max-width: 20%;
+  border-radius: 50%;
+  border: 5px solid #555;
+  margin: 20px 0;
+}
+
+.light-theme {
+  background: #ddd;
+  color: #222;
+}
+
+.light-theme a {
+  color: #0c679b;
+}
+
+.gradient-theme {
+  background: linear-gradient(150deg, #1c73a5 0%, #29a284 50%, #a5d060);
+  color: white;
+}
+
+.gradient-theme a {
+  color: #222;
+}
+
+.dark-theme {
+  background-color: #222;
+  color: white;
+}
+
+.dark-theme a {
+  color: #89bd35;
+}
+
+/***************************** MEDIA QUERIES *****************************/
+
+@media only screen and (min-width: 601px) {
+  #personal-pics img, #personal-pics img:first-child {
+    max-width: 150px;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  section, footer {
+    padding: 20px 20%;
+  }
+}
