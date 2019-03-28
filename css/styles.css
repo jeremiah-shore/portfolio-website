@@ -116,24 +116,15 @@ header nav ul li {
   color: #29a284;
 }
 
-.gradient-theme-1 { background: linear-gradient(150deg, #1c73a5, #29a284); }
-.gradient-theme-2 { background: linear-gradient(150deg, #29a284, #a5d060); }
-.gradient-theme-3 { background: linear-gradient(150deg, #a5d060, #1c73a5); }
+.gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
+.gradient-theme-green { background: linear-gradient(150deg, #29a284, #a5d060); }
+.gradient-theme-full { background: linear-gradient(150deg, #1c73a5 0%, #29a284 50%, #a5d060); }
 
-.gradient-theme-1, .gradient-theme-2, .gradient-theme-3 {
-  color: #fff
-}
-
-.gradient-theme-1 a, .gradient-theme-2 a, .gradient-theme-3 a {
-  color: #222;
-}
-
-.full-gradient-theme {
-  background: linear-gradient(150deg, #1c73a5 0%, #29a284 50%, #a5d060);
+.gradient-theme-blue, .gradient-theme-green, .gradient-theme-full {
   color: white;
 }
 
-.full-gradient-theme a {
+.gradient-theme-blue a, .gradient-theme-green a, .gradient-theme-full a {
   color: #222;
 }
 
