@@ -98,7 +98,7 @@ header nav ul li {
 }
 
 #personal-pics img:first-child {
-  max-width: 75%;
+  max-width: 80%;
 }
 
 #personal-pics img {
@@ -106,15 +106,6 @@ header nav ul li {
   border-radius: 50%;
   border: 5px solid #555;
   margin: 20px 0;
-}
-
-.light-theme {
-  background: #ddd;
-  color: #222;
-}
-
-.light-theme a {
-  color: #29a284;
 }
 
 .gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
@@ -129,11 +120,18 @@ header nav ul li {
   color: #222;
 }
 
+.light-theme {
+  background: #ddd;
+  color: #222;
+}
+.light-theme a {
+  color: #29a284;
+}
+
 .dark-theme {
   background-color: #222;
   color: white;
 }
-
 .dark-theme a {
   color: #a5d060;
 }
