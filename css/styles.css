@@ -89,23 +89,14 @@ header nav ul li {
   font-size: 1.25rem;
 }
 
-#personal-pics {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 30px;
+section h2 {
+  margin-bottom: .25em;
 }
 
-#personal-pics img:first-child {
-  max-width: 80%;
-}
-
-#personal-pics img {
-  max-width: 20%;
-  border-radius: 50%;
-  border: 5px solid #555;
-  margin: 20px 0;
+.section-subheading {
+  margin: 0 0 1.5em 0;
+  font-style: italic;
+  font-size: .85em;
 }
 
 .gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
@@ -136,16 +127,23 @@ header nav ul li {
   color: #a5d060;
 }
 
-#websites {
-
+#personal-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
 }
 
-#apps {
-
+#personal-pics img:first-child {
+  max-width: 80%;
 }
 
-#games {
-
+#personal-pics img {
+  max-width: 20%;
+  border-radius: 50%;
+  border: 5px solid #555;
+  margin: 20px 0;
 }
 
 /***************************** MEDIA QUERIES *****************************/
