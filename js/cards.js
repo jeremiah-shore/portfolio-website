@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     console.log(href);
   }
 
-  var gallery = document.getElementById('website-gallery');
+  var gallery = document.getElementById('content-wrapper');
   gallery.addEventListener('click', (e) => {
     if(e.target.className == 'card') {
       var link = e.target.getElementsByTagName('a')[0];
