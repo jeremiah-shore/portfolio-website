@@ -38,6 +38,11 @@ section, footer {
   box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
 }
 
+::selection {
+  color: white;
+  background: #29a284;
+}
+
 /***************************** HEADER STYLES *****************************/
 
 header nav ul {
