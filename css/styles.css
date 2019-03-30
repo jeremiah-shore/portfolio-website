@@ -105,10 +105,11 @@ section h2 {
 
   flex-basis: 22%;
   flex-shrink: 0;
-  flex-grow: 0;
+  flex-grow: 1;
   text-align: center;
 
   min-height: 200px;
+  min-width: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
