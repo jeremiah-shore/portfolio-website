@@ -9,10 +9,12 @@ $(window).resize(() => {
 
 function setItemVisibilityOnSize() {
   if($(window).width() > 600) {
+    $('#hamburger-menu')[0].style.display = 'none';
     for(let i = 0; i < menuItems.length; i++) {
       menuItems[i].style.display = 'inline-block'; //this avoids a slideDown() animation on resize
     }
   } else {
+    $('#hamburger-menu')[0].style.display = 'inline-block';
     for(let i = 0; i < menuItems.length; i++) {
       menuItems[i].style.display = 'none'; //this avoids a slideUp() animation on resize
     }
