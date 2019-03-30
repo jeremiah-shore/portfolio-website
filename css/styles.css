@@ -111,20 +111,24 @@ section h2 {
   min-height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .card img {
-  max-width: 250px;
-  border-radius: 3px 3px 0 0;
-  padding-bottom: .25em;
+  display: none; /* will get rendered with js replacement of image as .card background */
 }
 
-.card a {
+.card-gallery .card a {
     display: inline-block;
     padding: .5em 0;
     width: 100%;
-    background: #ddd;
+    background-color: #ddd;
     border-radius: 0 0 3px 3px;
+    flex-grow: 1;
 }
 
 .gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
