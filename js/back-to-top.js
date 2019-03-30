@@ -17,10 +17,5 @@ function setButtonDisplay() {
 }
 
 btt_button.addEventListener('click', () => {
-  scrollToTop();
+  $('#home')[0].scrollIntoView({behavior: "smooth"});
 });
-
-function scrollToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
