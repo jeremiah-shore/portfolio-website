@@ -127,7 +127,7 @@ section h2 {
 
   min-height: 200px;
   min-width: 250px;
-  max-width: 500px;
+  max-width: 90%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -228,10 +228,10 @@ section h2 {
   #hamburger-menu {
     display: none;
   }
-}
 
-@media only screen and (min-width: 768px) {
-
+  .card {
+    max-width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
