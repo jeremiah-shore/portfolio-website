@@ -5,7 +5,7 @@ YELLOW-GREEN:             #a5d060
 YELLOW-GREEN (alt):       #89bd35;  darker, for limited-use text on white bg
 */
 
-/***************************** BASE STYLES *****************************/
+/***************************** BASE/GLOBAL STYLES *****************************/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -32,6 +32,10 @@ header {
 
 section, footer {
   padding: 20px 20px;
+}
+
+.shadow {
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
 }
 
 /***************************** HEADER STYLES *****************************/
@@ -178,6 +182,21 @@ section h2 {
   border-radius: 50%;
   border: 5px solid #555;
   margin: 20px 0;
+}
+
+/***************************** FOOTER STYLES *****************************/
+
+#back-to-top {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 10%;
+    color: rgba(0,0,0,0.3);
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+    font-size: 3em;
+    padding: 0.5rem;
 }
 
 /***************************** MEDIA QUERIES *****************************/
