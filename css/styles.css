@@ -81,6 +81,14 @@ header nav ul li {
   color: #0c679b;
 }
 
+#logo {
+  padding: 10px 0 0 0;
+}
+
+#logo img {
+  max-height: 50px;
+}
+
 #hamburger-menu {
   color: #ddd;
   font-size: 3rem;
