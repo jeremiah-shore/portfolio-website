@@ -180,13 +180,12 @@ section h2 {
 
 .gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
 .gradient-theme-green { background: linear-gradient(150deg, #29a284, #a5d060); }
-.gradient-theme-full { background: linear-gradient(150deg, #1c73a5 0%, #29a284 50%, #a5d060); }
 
-.gradient-theme-blue, .gradient-theme-green, .gradient-theme-full {
+.gradient-theme-blue, .gradient-theme-green {
   color: white;
 }
 
-.gradient-theme-blue a, .gradient-theme-green a, .gradient-theme-full a {
+.gradient-theme-blue a, .gradient-theme-green a{
   color: #222;
 }
 
