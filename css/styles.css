@@ -91,7 +91,7 @@ section h2 {
 .card-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card {
@@ -110,6 +110,7 @@ section h2 {
 
   min-height: 200px;
   min-width: 250px;
+  max-width: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
