@@ -43,6 +43,26 @@ section, footer {
   background: #29a284;
 }
 
+/***************************** SCROLLBAR STYLES *****************************/
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(150deg, #1c73a5 0%, #29a284 50%, #a5d060); */
+  background: linear-gradient(#1c73a5 0%, #29a284 50%, #a5d060);
+  border: 2px solid #ddd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 /***************************** HEADER STYLES *****************************/
 
 header nav ul {
