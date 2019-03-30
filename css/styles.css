@@ -107,6 +107,10 @@ section h2 {
   flex-shrink: 0;
   flex-grow: 0;
   text-align: center;
+
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card img {
@@ -116,8 +120,11 @@ section h2 {
 }
 
 .card a {
-  display: inline-block;
-  padding: .5em;
+    display: inline-block;
+    padding: .5em 0;
+    width: 100%;
+    background: #ddd;
+    border-radius: 0 0 3px 3px;
 }
 
 .gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
