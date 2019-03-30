@@ -8,7 +8,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     card.removeChild(images[i]);
 
     var href = card.children[0].href;
-    console.log(href);
   }
 
   var gallery = document.getElementById('content-wrapper');
