@@ -117,20 +117,19 @@ header nav ul li {
   float: left;
 }
 
-/***************************** CONTENT STYLES *****************************/
+/***************************** CARD STYLES *****************************/
 
-#content-wrapper {
-  font-size: 1.25rem;
+#card-missemily {
+  background-image: url('../images/miss-emily-screenshot.jpg');
 }
-
-section h2 {
-  margin-bottom: .25em;
+#card-friscowine {
+  background-image: url('../images/frisco-wine-screenshot.jpg');
 }
-
-.section-subheading {
-  margin: 0 0 1em 0;
-  font-style: italic;
-  font-size: .85em;
+#card-nufood{
+  background-image: url('../images/nuvegfood-screenshot.jpg');
+}
+#card-strictlyusa {
+  background-image: url('../images/strictlyusa-screenshot.jpg');
 }
 
 .card-gallery {
@@ -165,18 +164,40 @@ section h2 {
   align-items: flex-end;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .card img {
   display: none; /* will get rendered with js replacement of image as .card background */
 }
 
-.card-gallery .card a {
-    display: inline-block;
-    padding: .5em 0;
-    width: 100%;
-    background-color: #ddd;
-    border-radius: 0 0 3px 3px;
-    flex-grow: 1;
+.card p {
+  display: inline-block;
+  padding: .5em 0;
+  margin: 0;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 0 0 3px 3px;
+  flex-grow: 1;
 }
+
+/***************************** CONTENT STYLES *****************************/
+
+#content-wrapper {
+  font-size: 1.25rem;
+}
+
+section h2 {
+  margin-bottom: .25em;
+}
+
+.section-subheading {
+  margin: 0 0 1em 0;
+  font-style: italic;
+  font-size: .85em;
+}
+
 
 .gradient-theme-blue { background: linear-gradient(150deg, #1c73a5, #29a284); }
 .gradient-theme-green { background: linear-gradient(150deg, #29a284, #a5d060); }
