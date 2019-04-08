@@ -131,6 +131,9 @@ header nav ul li {
 #card-strictlyusa {
   background-image: url('../images/strictlyusa-screenshot.jpg');
 }
+#card-shinspiano {
+  background-image: url('../images/shinspiano-screenshot.jpg');
+}
 
 .card-gallery {
   display: flex;
