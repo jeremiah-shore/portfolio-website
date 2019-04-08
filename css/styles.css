@@ -134,6 +134,9 @@ header nav ul li {
 #card-shinspiano {
   background-image: url('../images/shinspiano-screenshot.jpg');
 }
+#card-shorefiretech {
+  background-image: url('../images/shorefiretech-screenshot.jpg');
+}
 
 .card-gallery {
   display: flex;
