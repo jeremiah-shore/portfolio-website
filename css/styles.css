@@ -118,6 +118,9 @@ header nav ul li {
 }
 
 /***************************** CARD STYLES *****************************/
+#card-creativelycannabis {
+  background-image: url('../images/creatively-cannabis-screenshot.jpg');
+}
 
 #card-missemily {
   background-image: url('../images/miss-emily-screenshot.jpg');
