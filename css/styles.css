@@ -186,7 +186,8 @@ header nav ul li {
   padding: .5em 0;
   margin: 0;
   width: 100%;
-  background-color: #ddd;
+  background-color: rgba(200,200,200,0.95);
+  color: rgba(0,0,0,0.8);
   border-radius: 0 0 3px 3px;
   flex-grow: 1;
 }
