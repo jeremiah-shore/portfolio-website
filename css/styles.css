@@ -251,7 +251,8 @@ section h2 {
 #personal-pics img {
   max-width: 20%;
   border-radius: 50%;
-  border: 5px solid #555;
+  border: 1px solid #aaa;
+  padding: 5px;
   margin: 20px 0;
 }
 
