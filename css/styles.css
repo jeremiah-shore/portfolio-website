@@ -121,7 +121,6 @@ header nav ul li {
 #card-creativelycannabis {
   background-image: url('../images/creatively-cannabis-screenshot.jpg');
 }
-
 #card-missemily {
   background-image: url('../images/miss-emily-screenshot.jpg');
 }
@@ -136,6 +135,9 @@ header nav ul li {
 }
 #card-shinspiano {
   background-image: url('../images/shinspiano-screenshot.jpg');
+}
+#card-bandwave {
+  background-image: url('../images/bandwave-screenshot.jpg');
 }
 #card-shorefiretech {
   background-image: url('../images/shorefiretech-screenshot.jpg');
