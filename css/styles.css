@@ -118,6 +118,8 @@ header nav ul li {
 }
 
 /***************************** CARD STYLES *****************************/
+
+/* websites */
 #card-creativelycannabis {
   background-image: url('../images/creatively-cannabis-screenshot.jpg');
 }
@@ -142,6 +144,13 @@ header nav ul li {
 #card-shorefiretech {
   background-image: url('../images/shorefiretech-screenshot.jpg');
 }
+
+/* partners */
+#card-pinedesign {
+  background-image: url('../images/pine-design.jpg');
+}
+
+/* general */
 
 .card-gallery {
   display: flex;
@@ -229,6 +238,9 @@ section h2 {
 .light-theme a {
   color: #29a284;
 }
+.light-theme .material-icons {
+  color: #29a284;
+}
 
 .dark-theme {
   background-color: #222;
@@ -258,20 +270,35 @@ section h2 {
   margin: 20px 0;
 }
 
-#contact ul, #extras ul {
+.unbulleted {
   list-style-type: none;
+  padding-left: 10px;
 }
 
-#contact ul li, #extras ul li {
-    padding-bottom: 0.5em;
+.unbulleted li {
+  padding-bottom: 0.5em;
 }
 
 i.material-icons {
-    font-size: 2rem;
-    padding-right: 10px;
-    position: relative;
-    top: 0.3em;
-    color: #ddd;
+  font-size: 2rem;
+  padding-right: 10px;
+  position: relative;
+  top: 0.3em;
+  color: #ddd;
+}
+
+.partner-tile {
+  border: 1px solid rgba(0,0,0,0.25);
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.partner-tile img {
+  float: left;
+  max-height: 200px;
+  border-radius: 10px;
+  margin: 0 20px 20px 0;
 }
 
 /***************************** FOOTER STYLES *****************************/
