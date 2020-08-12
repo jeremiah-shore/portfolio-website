@@ -144,6 +144,9 @@ header nav ul li {
 #card-shorefiretech {
   background-image: url('../images/shorefiretech-screenshot.jpg');
 }
+#card-arbizcard {
+  background: url(http://jeremiahshore-net.s3-website-us-west-2.amazonaws.com/images/logo.png) white center no-repeat;
+}
 
 /* partners */
 #card-pinedesign {
